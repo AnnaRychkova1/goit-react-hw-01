@@ -1,0 +1,16 @@
+.tableDescr {
+  width: 33.33%;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.tableType {
+  text-transform: capitalize;
+  padding-left: 48px;
+  text-align: left;
+}
+
+.tableCurrency {
+  text-transform: uppercase;
+}
