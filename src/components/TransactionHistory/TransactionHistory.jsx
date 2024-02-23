@@ -1,4 +1,3 @@
-import Transaction from '../Transaction/Transaction';
 import css from '../TransactionHistory/TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => {
@@ -25,6 +24,16 @@ const TransactionHistory = ({ items }) => {
         })}
       </tbody>
     </table>
+  );
+};
+
+const Transaction = ({ type, amount, currency }) => {
+  return (
+    <>
+      <td className={css.tableDescrType}>{type}</td>
+      <td className={css.tableDescr}>{amount}</td>
+      <td className={css.tableDescr}>{currency}</td>
+    </>
   );
 };
 
