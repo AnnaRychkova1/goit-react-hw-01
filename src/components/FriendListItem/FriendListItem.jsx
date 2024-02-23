@@ -1,7 +1,7 @@
-import css from './FriendCard.module.css';
+import css from './FriendListItem.module.css';
 import clsx from 'clsx';
 
-const FriendCard = ({ avatar, name, isOnline }) => {
+const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <>
       <img className={css.friendImg} width={48} src={avatar} alt={name} />
@@ -13,4 +13,4 @@ const FriendCard = ({ avatar, name, isOnline }) => {
   );
 };
 
-export default FriendCard;
+export default FriendListItem;
